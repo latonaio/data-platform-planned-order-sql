@@ -51,6 +51,6 @@ CREATE TABLE `data_platform_planned_order_component_data`
    CONSTRAINT `DataPlatformPlannedOrderComponentDataStockConfirmationPlant_fk` FOREIGN KEY (`StockConfirmationBusinessPartner`, `StockConfirmationPlant`) REFERENCES `data_platform_plant_general_data` (`BusinessPartner`, `Plant`),
    CONSTRAINT `DataPlatformPlannedOrderComponentDataStockConfirmationPlantBatch_fk` FOREIGN KEY (`Product`, `StockConfirmationBusinessPartner`, `StockConfirmationPlant`, `StockConfirmationPlantBatch`) REFERENCES `data_platform_batch_master_record_batch_data` (`Product`, `BusinessPartner`, `Plant`, `Batch`),
    CONSTRAINT `DataPlatformPlannedOrderComponentDataStorageLocationForMRP_fk` FOREIGN KEY (`StockConfirmationBusinessPartner`, `StockConfirmationPlant`, `StorageLocationForMRP`) REFERENCES `data_platform_plant_storage_location_data` (`BusinessPartner`, `Plant`, `StorageLocation`)
-
+   
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
