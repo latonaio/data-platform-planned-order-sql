@@ -11,7 +11,7 @@ data-platform-planned-order-sql には、sqlの設定ファイルとして、以
 
 * data-platform-planned-order-sql-header-data.sql（データ連携基盤 計画手配 - ヘッダデータ）
 * data-platform-planned-order-sql-item-data.sql（データ連携基盤 計画手配 - 明細データ）
-* data-platform-planned-order-sql-component-data.sql（データ連携基盤 計画手配 - 構成品目データ）
+* data-platform-planned-order-sql-item-component-data.sql（データ連携基盤 計画手配 - 明細構成品目データ）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 
