@@ -33,7 +33,6 @@ CREATE TABLE `data_platform_planned_order_item_component_data`
   `StockConfirmationBusinessPartner`                int(12) NOT NULL,
   `StockConfirmationPlant`                          varchar(4) NOT NULL,
   `StockConfirmationPlantStorageLocation`           varchar(4) DEFAULT NULL,
-  `ComponentProductWithdrawnQuantity`               float(15) DEFAULT NULL,
   `PlannedOrderIsReleased`                  	    tinyint(1) DEFAULT NULL,
   `CreationDate`	                                date DEFAULT NULL,
   `CreationTime`                                    time DEFAULT NULL,
