@@ -40,7 +40,7 @@ CREATE TABLE `data_platform_planned_order_item_operation_data`
     `ResponsiblePlannerGroup`                  varchar(3) DEFAULT NULL,
     `PlainLongText`                            varchar(1000) DEFAULT NULL,
     `WorkCenter`                               int(16) NOT NULL,
-    `CapacityCategoryCode`                     varchar(3) DEFAULT NULL,
+    `CapacityCategory`                         varchar(20) DEFAULT NULL,
     `OperationCostingRelevancyType`            varchar(1) DEFAULT NULL,
     `OperationSetupType`                       varchar(2) DEFAULT NULL,
     `OperationSetupGroupCategory`              varchar(10) DEFAULT NULL,
