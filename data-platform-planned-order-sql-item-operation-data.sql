@@ -5,6 +5,7 @@ CREATE TABLE `data_platform_planned_order_item_operation_data`
     `Operations`                               int(16) NOT NULL,
     `OperationsItem`                           int(6) NOT NULL,
     `OperationID`                              int(4) NOT NULL,
+    `OperationType`                            varchar(4) NOT NULL,
 	`SupplyChainRelationshipID`                int(16) NOT NULL,
 	`SupplyChainRelationshipDeliveryID`        int(6) NOT NULL,
 	`SupplyChainRelationshipDeliveryPlantID`   int(4) NOT NULL,
