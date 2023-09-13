@@ -10,7 +10,9 @@ https://api.XXXXXXXX.com/api/OP_API_XXXXXXX_XXX/overview
 data-platform-planned-order-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。    
 
 * data-platform-planned-order-sql-header-data.sql（データ連携基盤 計画手配 - ヘッダデータ）
+* data-platform-planned-order-sql-header-doc-data.sql（データ連携基盤 計画手配 - ヘッダ文書データ）
 * data-platform-planned-order-sql-item-data.sql（データ連携基盤 計画手配 - 明細データ）
+* data-platform-planned-order-sql-item-doc-data.sql（データ連携基盤 計画手配 - 明細文書データ）
 * data-platform-planned-order-sql-item-component-data.sql（データ連携基盤 計画手配 - 明細構成品目データ）
 * data-platform-planned-order-sql-item-operation-data.sql（データ連携基盤 計画手配 - 明細作業データ）
 * data-platform-planned-order-sql-item-operation-component-data.sql（データ連携基盤 計画手配 - 明細作業構成品目データ）
